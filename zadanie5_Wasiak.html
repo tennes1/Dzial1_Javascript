@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <title>Zadania - Igor Wasiak</title>
+  <script>
+    // ====== Funkcje dla ZADANIA 5 - Wasiak ======
+    let okno1, okno2, okno3, okno4;
+
+    function WinOpen_wasiak_1() {
+      okno1 = window.open("grafika1.html", "grafika1", "width=300,height=350,left=50,top=200");
+    }
+    function WinOpen_wasiak_2() {
+      okno2 = window.open("grafika2.html", "grafika2", "width=300,height=350,left=200,top=150");
+    }
+    function WinOpen_wasiak_3() {
+      okno3 = window.open("grafika3.html", "grafika3", "width=300,height=350,left=400,top=100");
+    }
+    function WinOpen_wasiak_4() {
+      okno4 = window.open("grafika4.html", "grafika4", "width=300,height=350,left=600,top=50");
+    }
+
+    function okno_zamknij_wasiak_1() { okno1.close(); }
+    function okno_zamknij_wasiak_2() { okno2.close(); }
+    function okno_zamknij_wasiak_3() { okno3.close(); }
+    function okno_zamknij_wasiak_4() { okno4.close(); }
+  </script>
+</head>
+<body style="text-align:center; font-family:Arial;">
+<h1 style="color:red; font-size:36px;">
+  Wasiak mój numer w dzienniku to 27 czyli mam układ nr. 3 </br>
+  <button onclick="WinOpen_wasiak_1()">Grafika 1</button>
+  <button onclick="WinOpen_wasiak_2()">Grafika 2</button>
+  <button onclick="WinOpen_wasiak_3()">Grafika 3</button>
+  <button onclick="WinOpen_wasiak_4()">Grafika 4</button>
+  </h1>
+</body>
+</html>
